@@ -42,3 +42,9 @@ Validar fluxo web **mobile** no Chrome do emulador Android (Login + Menu/Hamburg
 
 ## Créditos & contato
 Autor: José Feitosa Jr — feitosa34jr@gmail.com
+## Modo visível (para gravação)
+1) Emulador com janela: `run-visible.bat`
+2) Appium abre em outra janela automaticamente
+3) Testes rodam e geram JUnit em `.\reports\*.xml`
+
+> Se algo não abrir: confirme `appium -v`, o AVD `Pixel_6_API_34` e SDK em `C:\Users\feito\AppData\Local\Android\Sdk`.
