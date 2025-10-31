@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+.env
+# Relatórios
+reports/
+# Android/SDK temporários
+*.log

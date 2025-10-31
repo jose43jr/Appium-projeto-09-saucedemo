@@ -1,0 +1,11 @@
+{
+  "server": { "url": "http://127.0.0.1:4723" },
+  "caps": {
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "browserName": "Chrome",
+    "deviceName": "Android Emulator",
+    "chromedriverAutodownload": true,
+    "chromedriverExecutable": "H:/Appium/drivers/chromedriver.exe"
+  }
+}
