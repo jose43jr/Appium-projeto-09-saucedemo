@@ -26,3 +26,19 @@ Validar fluxo web **mobile** no Chrome do emulador Android (Login + Menu/Hamburg
 ## Evidências
 - JUnit em `.\reports\*.xml` (pronto para CI)
 
+## Limitações conhecidas
+- Chrome do emulador (v113) exige Chromedriver 113 apontado em `config/appium.conf.json`.
+- Testes cobrem navegação básica (login + menu). Não há mocks nem cobertura offline.
+
+## Roadmap curto (próximas iterações)
+- ✅ (feito) Login + Menu
+- ⬜ Checkout simples (validar fluxo até o resumo)
+- ⬜ Pipeline CI (GitHub Actions) com AVD headless
+- ⬜ Captura automática de screenshot ao falhar (`pytest --maxfail=1 -q` + hook)
+
+## Como eu trabalhei
+- Priorizei rodar de ponta a ponta antes de “embelezar”.
+- Documentei só o essencial e gerei JUnit para CI desde o começo.
+
+## Créditos & contato
+Autor: José Feitosa Jr — feitosa34jr@gmail.com
