@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![Appium](https://img.shields.io/badge/Appium-3.x-success)
+![Android](https://img.shields.io/badge/Android-API_34-brightgreen)
 # Projeto 09 — Appium (Web mobile – SauceDemo)
 
 ## Objetivo
@@ -22,3 +25,4 @@ Validar fluxo web **mobile** no Chrome do emulador Android (Login + Menu/Hamburg
 
 ## Evidências
 - JUnit em `.\reports\*.xml` (pronto para CI)
+
